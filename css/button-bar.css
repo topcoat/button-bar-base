@@ -27,6 +27,16 @@
   width: auto;
   border-radius: 0;
 }
+.button_bar__item > input {
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  opacity: 0.001;
+  z-index: 1;
+  vertical-align: top;
+  outline: none;
+}
 .button-bar__button {
   border-radius: inherit;
 }
