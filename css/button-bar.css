@@ -18,7 +18,7 @@
 .button-bar {
   display: table;
   table-layout: fixed;
-  white-space: no-wrap;
+  white-space: nowrap;
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@
   width: auto;
   border-radius: 0;
 }
-.button_bar__item > input {
+.button-bar__item > input {
   position: absolute;
   overflow: hidden;
   padding: 0;
