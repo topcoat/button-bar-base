@@ -1,6 +1,6 @@
 {
   "name": "topcoat-button-bar-base",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Topcoat button bar base.",
   "directories": {
     "test": "test",
