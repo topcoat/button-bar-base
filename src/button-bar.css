@@ -15,9 +15,9 @@
 * limitations under the License.
 *
 */
-@import utils
+@import "topcoat-utils";
 
-.button-bar {
+%button-bar {
   display: table;
   table-layout: fixed;
   white-space: nowrap;
@@ -25,21 +25,21 @@
   padding: 0;
 }
 
-.button-bar__item {
+%button-bar__item {
   display: table-cell;
   width: auto;
   border-radius: 0;
 }
 
-.button-bar__item > input {
-  hide-input()
+%button-bar__item__input {
+  extend: %hide-input;
 }
 
-.button-bar__button {
+%button-bar__button {
   border-radius: inherit;
 }
 
-.button-bar__item:disabled {
-  disabled()
+%button-bar__item--disabled {
+  extend: %disabled;
 }
 

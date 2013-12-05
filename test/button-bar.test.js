@@ -25,8 +25,8 @@ describe('button-bar-base', function() {
     'use strict';
 
     it('should create expected css file', function() {
-        var actual = grunt.file.read('css/button-bar.css');
-        var expected = grunt.file.read('test/expected/button-bar.css');
+        var actual = grunt.file.read('css/button-bar.css').trim();
+        var expected = grunt.file.read('test/expected/button-bar.css').trim();
         assert.equal(actual, expected, 'should generate correct css');
     });
 
