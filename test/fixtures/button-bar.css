@@ -15,3 +15,24 @@
 * limitations under the License.
 *
 */
+@import "./src/button-bar.css";
+
+.button-bar {
+  extend: %button-bar;
+}
+
+.button-bar__item {
+  extend: %button-bar__item;
+}
+
+.button-bar__item > input {
+  extend: %hide-input;
+}
+
+.button-bar__button {
+  border-radius: inherit;
+}
+
+.button-bar__item:disabled {
+  extend: %disabled;
+}
