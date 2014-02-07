@@ -1,6 +1,6 @@
 {
   "name": "topcoat-button-bar-base",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Topcoat button bar base.",
   "main": "index.html",
   "style": "src/button-bar.css",
