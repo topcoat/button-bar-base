@@ -33,6 +33,10 @@
   border-radius: inherit;
 }
 
+.button-bar__button:focus {
+  extend: %button-bar__button--focus;
+}
+
 .button-bar__item:disabled {
   extend: %disabled;
 }
