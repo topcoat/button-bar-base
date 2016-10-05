@@ -1,0 +1,28 @@
+@import "topcoat-utils";
+
+%button-bar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+%button-bar__item {
+  width: auto;
+  border-radius: 0;
+}
+
+%button-bar__item--disabled {
+  @extend: %disabled;
+}
+
+%button-bar__item__input {
+  @extend: %hide-input;
+}
+
+%button-bar__button {
+  border-radius: inherit;
+}
+
+%button-bar__button--focus {
+  z-index: 1;
+}
