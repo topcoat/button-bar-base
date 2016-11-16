@@ -7,7 +7,7 @@
 }
 
 .button-bar__item > input {
-  @extend: %hide-input;
+  @extend: %button-bar__item__input;
 }
 
 .button-bar__button {
