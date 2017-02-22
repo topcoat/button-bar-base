@@ -36,7 +36,7 @@
   },
   "homepage": "http://topcoat.io",
   "devDependencies": {
-    "autoprefixer": "^6.5.0",
+    "autoprefixer": "^6.7.5",
     "ava": "^0.16.0",
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
